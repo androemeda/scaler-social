@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height: 100%;
+}
+.parent-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.container{
+    display: flex;
+    height: 90vh;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: gray;
+}
+
+.post-button{
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    margin: 8px;
+}
+
+.post-button:hover{
+    cursor: pointer;
+}
+
+.output-container{
+    display: flex;
+    width: 50%;
+    background-color: wheat;
+    flex-direction: column;
+    align-items: center;
+}
+
+.element{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    margin: 5px;
+}
+
+.upper{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.deleteImage:hover{
+    cursor: pointer;
+}
+
+.editImage:hover{
+    cursor: pointer;
+}
